@@ -1,12 +1,14 @@
 /* styles go here */
 
 .block {
-  border: 1px solid black;
-  margin: 20px auto;
-  padding: 0 auto;
+  margin-bottom: 20px;
 }
 
 .input__block {
   display: block;
-  margin: 10px auto;
+  margin-bottom: 10px;
+}
+
+.block > :last-child {
+  margin-bottom: initial;
 }
