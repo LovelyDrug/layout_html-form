@@ -60,11 +60,15 @@
           <input
           type="email"
           placeholder="email@example.com"
-          name="email">
+          name="email"
+          required>
         </label>
         <label class="input__block">
           Password:
-          <input type="password" name="password">
+          <input
+          type="password"
+          name="password"
+          required>
         </label>
       </fieldset>
 
@@ -113,7 +117,12 @@
         <label class="input__block">
           Comments:
 
-          <textarea type="feedback" name="feedbackText"></textarea>
+          <textarea
+          type="feedback"
+          name="feedbackText"
+          minlength="0"
+          maxlength="1000"
+          ></textarea>
         </label>
         <label class="input__block">
           Would you recommend us?
